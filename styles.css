@@ -133,7 +133,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0% 0% 7%;
+  padding: 0% 0% 0%;
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
@@ -391,7 +391,6 @@ body {
 .footer-section {
   position: relative;
   background-color: #fce99e;
-  /* box-sizing: border-box; */
   width: 102%;
   text-align: center;
   font-size: 18px;
@@ -439,7 +438,7 @@ body {
   width: 17%;
 }
 .mentor{
-  height: 60vh;
+  height: 50vh;
 }
 .review{
   height: 120vh;
@@ -516,7 +515,6 @@ body {
     display: none;
   }
   .custom-card{
-    
     gap: 26px;
   }
   .border-color2{
