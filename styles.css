@@ -68,7 +68,6 @@ body {
 #left-content {
   height: 90vh;
   width: 50vw;
-  /* background-color: #fce99e; */
 }
 #right-content {
   height: 100vh;
@@ -134,7 +133,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0px 0px 210px;
+  padding: 0% 0% 7%;
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
@@ -428,10 +427,10 @@ body {
     padding-bottom: 5%;
   } 
   .footer-section {
-    height: 40vh;
+    height: 38vh;
   }
   .col2{
-    margin-bottom: 5%;
+    margin-bottom: 7%;
   }
 }
 @media (max-width: 580px) {
@@ -440,11 +439,17 @@ body {
   width: 17%;
 }
 .mentor{
-  height: 90vh;
+  height: 60vh;
 }
 .review{
   height: 120vh;
   padding-top: 54%;
+}
+#left-content{
+  height: 100vh;
+}
+#right-content{
+    height: 120vh;
 }
 }
 
