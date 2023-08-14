@@ -143,6 +143,9 @@ body {
   color: #001826;
   font-family: Kalam;
 }
+.address-panel{
+  padding-top: 40px;
+}
 .about-cards {
   position: relative;
   width: 100%;
@@ -399,7 +402,7 @@ body {
   color: #001826;
   font-family: Outfit;
   bottom: 0;
-  height: 50vh;
+  height: 35vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -431,10 +434,14 @@ body {
     height: 38vh;
   }
   .col2{
-    margin-bottom: 3%;
+    margin-top: 13%;
+    margin-bottom: 5%;
   }
   .about{
     height: 80vh;
+  }
+  .row{
+    margin-top: unset;
   }
 }
 @media (max-width: 580px) {
@@ -447,7 +454,7 @@ body {
 }
 .review{
   height: 120vh;
-  padding-top: 54%;
+  padding-top: 58%;
 }
 }
 
@@ -469,7 +476,7 @@ body {
    .navbar-toggler {
     right: unset;
 }
-  #footer-para{
+  .col1{
     display: none;
   }
   body{
